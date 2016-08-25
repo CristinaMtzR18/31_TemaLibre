@@ -22,14 +22,31 @@ iframe{
 	height: 350px;
 }
 							/*** Animaciones ***/
+/*Rotar elemento*/
 .rot:hover{
 -webkit-transform: rotateZ(360deg);
 -webkit-transition: .8s;
 }
+/*Agrandar Elemento*/
 .scal:hover{
 -webkit-transform: scale(1.1);
 -webkit-transition: .8s;
 transform: scale(1.1);
+}
+/*Cambiar de color al elemento*/
+.color:hover
+{
+background: #53a7ea;
+}
+/*Sombrear 3D al elemento*/
+.threed:hover
+{
+box-shadow:
+1px 1px #6AD91B,
+2px 2px #6AD91B,
+3px 3px #6AD91B;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
 }
 
 							/*** UTILIDADES ***/
