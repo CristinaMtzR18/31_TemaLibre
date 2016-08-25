@@ -37,6 +37,7 @@ transform: scale(1.1);
 .bg-black{
 	background-color: #413B3B;
 }
+
 .foto{
 	height: 50%;
 	width: 50%;
@@ -61,14 +62,17 @@ transform: scale(1.1);
 .mgt-15{
 	margin-top: 15%;
 }
-.mgt-25{
-	margin-top: 25%;
+.mgt-35{
+	margin-top: 35%;
 }
 .mg-3{
 	margin: 3%;
 }
 .mgb-3{
 	margin-bottom: 3%;
+}
+.mgb-5{
+	margin-bottom: 5%;
 }
 .mg-0{
 	margin: 0;
@@ -84,6 +88,13 @@ transform: scale(1.1);
 }
 .mgt-2{
 	margin-top: 2%;
+}
+.mgt-10{
+	margin-top: 12%;
+}
+.mg{
+	margin-left: 2%;
+	margin-right:2%;
 }
 /*Padding*/
 .pd-5{
