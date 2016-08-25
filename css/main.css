@@ -1,8 +1,17 @@
 /* Tu CSS va aqui */
 							/*** GENERAL ***/
-
+*{
+	margin: 0;
+    padding: 0;
+    /*Las fuentes que estan saque de google font*/
+    font-family: 'Baloo+Paaji', 'PT+Sans';
+}
 							/*** HEADER ***/
-
+.logo{
+    margin-top: -6%; 
+    width: 250px;
+    height: 50px;
+}
 							/*** UTILIDADES ***/
 /*hr*/
 hr{
@@ -18,6 +27,9 @@ hr{
 }
 .text-orange{
 	color: orange;
+}
+.font-courgette{
+	font-family: 'Baloo+Paaji';
 }
 /*Margin*/
 .mg-5{
