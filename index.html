@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Tema Libre: Grid System Bootstrap</title>
 		<link rel="shortcut icon" href="img/ico/favicon.ico"> <!-- "shortcut icon" nos indicaque es tipo icono, relación -->
-		<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|PT+Sans" rel="stylesheet"><!-- Fuentes de fontsgoogle -->
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Josefin+Sans" rel="stylesheet"><!-- Fuentes de fontsgoogle -->
 		<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	  	<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -15,7 +15,7 @@
 	       	<header> <!-- Inicia HEADER -->
 		       	<div class="row bg-header"> <!-- Inicia Barra de Navegación -->
 		       		<div class="col-xs-12, col-sm-12 col-md-12 col-lg-12">
-		       			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		       			<nav class="navbar navbar-default" role="navigation">
 							<!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
 	  						<div class="navbar-header">
 	    						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -39,17 +39,58 @@
 		        </div><!-- Cierra ROW -->
 		    </header><!-- Cierra HEADER -->
 		    <section id="introduccion"><!-- Empieza INTRO -->
-		    	<div class="row">
+		    	<div class="row  pd-3">
 		        	<div class="col-xs-12, col-sm-12 col-md-7 col-lg-7"><!-- Video -->
-		        		<iframe width="560" height="315" src="https://www.youtube.com/embed/e5VQampkqdg" frameborder="0" allowfullscreen></iframe>
+		        		<iframe width="560" height="315" src="https://www.youtube.com/embed/e5VQampkqdg" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen class="mgt-25"></iframe>
 	        		</div>
 	        		<div class="col-xs-12, col-sm-12 col-md-5 col-lg-5"><!-- Información -->
+	        			<h3 class="font-baloo text-center mgt-2">GRID-SYSTEM EN BOOTSTRAP</h3>
+	        			<h2 class="font-baloo text-center">INTRODUCCION</h2>
+						<p>El diseño de páginas basado en rejilla se realiza mediante filas y columnas donde se colocan los contenidos. Así funciona la rejilla de Bootstrap:</p>
+						<ul>
+							<li>Las filas siempre se definen dentro de un contenedor de tipo .container (anchura fija) o de tipo .container-fluid (anchura variable). De esta forma las filas se alinean bien y muestran el padding correcto.</li>
+							<li>Las filas se utilizan para agrupar horizontalmente a varias columnas.</li>
+							<li>El contenido siempre se coloca dentro de las columnas, ya que las filas sólo deberían contener como hijos elementos de tipo columna.</li>
+							<li>Bootstrap define muchas clases CSS (como por ejemplo .row y .col-xs-4) para crear rejillas rápidamente. También existen mixins de Less para crear diseños más semánticos.</li>
+							<li>La separación entre columnas se realiza aplicando padding. Para contrarrestar sus efectos en la primera y última columnas, las filas (elementos .row) aplican márgenes negativos.</li>
+							<li>Las columnas de la rejilla definen su anchura especificando cuántas de las 12 columnas de la fila ocupan. Si por ejemplo quieres dividir una fila en tres columnas iguales, utilizarías la clase .col-xs-4 (el 4 indica que cada columna ocupa 4 de las 12 columnas en las que se divide cada fila).</li>
+						</ul>
+						<blockquote class="pull-right">
+  							<small>Referencia: <cite title="página web">http://librosweb.es/libro/bootstrap_3/capitulo_2/tipos_de_rejillas.html</cite></small>
+						</blockquote>
+						<a href="https://www.youtube.com/watch?v=x6uafDNy-F4&spfreload=10" class="btn btn-info role="button"" role="button">Más información</a>
 	        		</div>
 	        	</div>
 		    </section><!-- Termina INTRO -->
 	        <section id="medidas"><!-- Empieza MEDIDAS -->
 				<div class="row">
-					<div class="col-xs-12, col-sm-12 col-md-12 col-lg-12">
+					<div class="col-xs-6, col-sm-6 col-md-3 col-lg-3"><!-- Inicia XL -->
+						<div class="bg-foto img-responsive" id="foto1">
+							<div class="bg-orange text-white text-center bg-foto">
+								<h2>.col-xs-</h2>
+								<p>Dispositivos muy pequeños Teléfonos (< 768 pixeles)</p>
+							</div>
+						</div>
+						<p>Las columnas se muestran siempre horizontalmente.</p>
+					</div>
+					<div class="col-xs-6, col-sm-6 col-md-3 col-lg-3"><!-- Inicia SM -->
+						<div>
+							<h2>.col-sm-</h2>
+							<p></p>
+						</div>
+						<p>Si se estrecha el navegador, las columnas se muestran verticalmente. A medida que aumenta su anchura, la rejilla muestra su aspecto horizontal normal.</p>
+					</div>
+					<div class="col-xs-6, col-sm-6 col-md-3 col-lg-3"><!-- Inicia MD -->
+						<div>
+							<h2>.col-md-</h2>
+						</div>
+						<p>Si se estrecha el navegador, las columnas se muestran verticalmente. A medida que aumenta su anchura, la rejilla muestra su aspecto horizontal normal.</p>
+					</div>
+					<div class="col-xs-6, col-sm-6 col-md-3 col-lg-3"><!-- Inicia LG -->
+						<div>
+							<h2>.col-lg-</h2>
+						</div>
+						<p>Si se estrecha el navegador, las columnas se muestran verticalmente. A medida que aumenta su anchura, la rejilla muestra su aspecto horizontal normal.</p>
 					</div>
 				</div>	
 			</section><!-- Termina MEDIDAS -->

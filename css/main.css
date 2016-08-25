@@ -4,7 +4,7 @@
 	margin: 0;
     padding: 0;
     /*Las fuentes que estan saque de google font*/
-    font-family: 'Baloo+Paaji', 'PT+Sans';
+    font-family: 'Baloo Paaji', 'Josefin Sans';
 }
 							/*** HEADER ***/
 .logo{
@@ -12,37 +12,69 @@
     width: 250px;
     height: 50px;
 }
+							/*** VIDEO ***/
+iframe{
+	width: 100%;
+	height: 350px;
+}
+							/*** Animaciones ***/
+.bg-orange{
+	background-color: #F56142;
+}
+.bg-black{
+	background-color: #413B3B;
+}
+.bg-foto{
+	background-size: cover;
+	padding: 3%;
+}
+.bg-foto .bg-orange{
+	opacity: 0;
+}
+.bg-orange:hover{
+	opacity: 0.7;
+}
+#foto1{
+	background: url("../img/xs.png");
+}
+#foto2{
+	background: url("../img/sm.png");
+}
+#foto3{
+	background: url("../img/md.jpg");
+}
+#foto4{
+	background: url("../img/lg.png");
+}
+
 							/*** UTILIDADES ***/
 /*hr*/
 hr{
 	width: 15%;
 	border: 0.2em solid #FF3300;
 }
-.miHr{
-	border: 0.2em solid #FFF;
-}
 /*Textos*/
 .text-white{
 	color: white;
 }
-.text-orange{
-	color: orange;
-}
-.font-courgette{
-	font-family: 'Baloo+Paaji';
+.font-baloo{
+	font-family: 'Baloo Paaji';
 }
 /*Margin*/
 .mg-5{
 	margin: 5%;
 }
+.mgt-2{
+	margin-top: 2%;
+}
 .mgt-5{
-	margin-top: 15%;
+	margin-top: 5%;
 }
 .mgt-15{
 	margin-top: 15%;
 }
-.mgt-20{
-	margin-top: 20%;
+.mgt-25{
+	margin-top: 25%;
 }
 .mg-3{
 	margin: 3%;
@@ -50,7 +82,7 @@ hr{
 .mg-0{
 	margin: 0;
 }
-.mgl-38{
+.mgl-{
 	margin-left: 45%; 
 }
 .mgl-40{
