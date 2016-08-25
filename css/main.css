@@ -1,0 +1,59 @@
+/* Tu CSS va aqui */
+							/*** GENERAL ***/
+
+							/*** HEADER ***/
+
+							/*** UTILIDADES ***/
+/*hr*/
+hr{
+	width: 15%;
+	border: 0.2em solid #FF3300;
+}
+.miHr{
+	border: 0.2em solid #FFF;
+}
+/*Textos*/
+.text-white{
+	color: white;
+}
+.text-orange{
+	color: orange;
+}
+/*Margin*/
+.mg-5{
+	margin: 5%;
+}
+.mgt-5{
+	margin-top: 15%;
+}
+.mgt-15{
+	margin-top: 15%;
+}
+.mgt-20{
+	margin-top: 20%;
+}
+.mg-3{
+	margin: 3%;
+}
+.mg-0{
+	margin: 0;
+}
+.mgl-38{
+	margin-left: 45%; 
+}
+.mgl-40{
+	margin-left: 40%;
+}
+.mgt-2{
+	margin-top: 2%;
+}
+/*Padding*/
+.pd-0{
+	padding: 0;
+}
+.pd-5{
+	padding: 5%;
+}
+.pdt-5{
+	padding-top: 5%;
+}
